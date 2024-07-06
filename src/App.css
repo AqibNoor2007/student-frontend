@@ -1,0 +1,59 @@
+.navbar {
+    --mdb-navbar-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .07), 0 2px 4px rgba(0, 0, 0, .05);
+    --mdb-navbar-padding-top: .5625rem;
+    --mdb-navbar-brand-img-margin-right: .25rem;
+    box-shadow: var(--mdb-navbar-box-shadow);
+    padding-top: var(--mdb-navbar-padding-top);
+}
+
+.bg-light {
+    --mdb--bg-opacity: 1;
+    background-color: rgba(251, 251, 251, var(--mdb--bg-opacity));
+}
+
+.bg-light {
+    --mdb-bg-opacity: 1;
+    background-color: rgba(var(--mdb-light-rgb), var(--mdb-bg-opacity)) !important;
+}
+
+.navbar {
+    --mdb-navbar-padding-x: 0;
+    --mdb-navbar-padding-y: .5rem;
+    --mdb-navbar-color: rgba(0, 0, 0, .55);
+    --mdb-navbar-hover-color: rgba(0, 0, 0, .7);
+    --mdb-navbar-disabled-color: rgba(0, 0, 0, .3);
+    --mdb-navbar-active-color: rgba(0, 0, 0, .9);
+    --mdb-navbar-brand-padding-y: .3rem;
+    --mdb-navbar-brand-margin-end: 1rem;
+    --mdb-navbar-brand-font-size: 1.25rem;
+    --mdb-navbar-brand-color: rgba(0, 0, 0, .9);
+    --mdb-navbar-brand-hover-color: rgba(0, 0, 0, .9);
+    --mdb-navbar-nav-link-padding-x: .5rem;
+    --mdb-navbar-toggler-padding-y: .25rem;
+    --mdb-navbar-toggler-padding-x: .75rem;
+    --mdb-navbar-toggler-font-size: 1.25rem;
+    --mdb-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    --mdb-navbar-toggler-border-color: rgba(0, 0, 0, .1);
+    --mdb-navbar-toggler-border-radius: .25rem;
+    --mdb-navbar-toggler-focus-width: .25rem;
+    --mdb-navbar-toggler-transition: box-shadow .15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--mdb-navbar-padding-y) var(--mdb-navbar-padding-x);
+}
+
+.container{
+    max-width: 1326px !important;
+margin: auto;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
